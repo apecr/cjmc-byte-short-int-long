@@ -9,7 +9,12 @@ public class Main {
         // 4. Create a variable of type long, and make it equal to 5000 + 10
         //    times the sum of the byte, plus the short plus the int
 
-        
+        byte myByte = 12;
+        short myShort = 10;
+        int myInt = 150;
+        long myLong = 5000L + 10L * (myByte + myShort + myInt);
+
+        System.out.println("longTotal = " + myLong);
 
     }
 }
